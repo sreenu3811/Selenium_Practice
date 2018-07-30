@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryFailedTestSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="login_Page.TestLoginPage">
+        <methods>
+          <include name="test_LoginPage" invocation-numbers="1 2"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClassName"/>
+        </methods>
+      </class> <!-- login_Page.TestLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RetryFailedTestSuite] -->
