@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="leads_Page.TestLeadsPage">
+        <methods>
+          <include name="beforeClassName"/>
+          <include name="launchBrowser"/>
+          <include name="test_LeadsPage" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- leads_Page.TestLeadsPage -->
+      <class name="login_Page.TestLoginPage">
+        <methods>
+          <include name="test_LoginPage"/>
+          <include name="beforeClassName"/>
+        </methods>
+      </class> <!-- login_Page.TestLoginPage -->
+      <class name="HomePage.TestHomePage">
+        <methods>
+          <include name="testSinOut"/>
+        </methods>
+      </class> <!-- HomePage.TestHomePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
